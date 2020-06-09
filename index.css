@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(245, 251, 255);
+}
 h1 {
     color: rgb(162, 0, 0);
     text-align: center;
@@ -6,4 +9,10 @@ h1 {
     border: 2px solid black;
     text-align: center;
     padding: 25px;
+}
+button {
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 7px;
+    outline: none;
 }

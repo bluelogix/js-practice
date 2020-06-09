@@ -8,6 +8,7 @@ function randomColor() {
 }
    function changeColor() {
     document.getElementById("change").style.backgroundColor = randomColor();
+    document.getElementById("chn").style.backgroundColor = randomColor();
     console.log("did it hit?")
 }
  
