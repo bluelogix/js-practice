@@ -16,3 +16,9 @@ button {
     border-radius: 7px;
     outline: none;
 }
+.second-js-project {
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 25px;
+}
