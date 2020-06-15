@@ -5,11 +5,13 @@ h1 {
     color: rgb(114, 114, 114);
     text-align: center;
 }
-.first-js-project {
+.table {
     border: 2px solid black;
     text-align: center;
     padding: 25px;
+    margin-top: 10px;
 }
+
 button {
     padding: 6px;
     font-weight: bold;
@@ -17,9 +19,7 @@ button {
     outline: none;
 }
 .second-js-project {
-    margin-top: 10px;
     color: white;
-    border: 2px solid black;
     text-align: center;
     padding: 25px;
     background-image: url("https://images.unsplash.com/photo-1592126914605-e55fa6bca210?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
