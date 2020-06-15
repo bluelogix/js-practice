@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(245, 251, 255);
+    background-color: rgb(255, 255, 255);
 }
 h1 {
-    color: rgb(162, 0, 0);
+    color: rgb(114, 114, 114);
     text-align: center;
 }
 .first-js-project {
@@ -15,4 +15,19 @@ button {
     font-weight: bold;
     border-radius: 7px;
     outline: none;
+}
+.second-js-project {
+    margin-top: 10px;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 25px;
+    background-image: url("https://images.unsplash.com/photo-1592126914605-e55fa6bca210?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
