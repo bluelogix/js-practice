@@ -22,3 +22,17 @@ function getQuote() {
     //here we are using the getelementbyid to use the p tag to display array while array using the onClick method to make them random
 }
 
+//THIRD-JS-PROJECT  
+let count = 0;
+document.getElementById("increase").innerHTML = count
+
+// function counter() {
+//     let count = 0;
+//     document.getElementById("increase").innerHTML = count
+// }
+function addCounter() {
+
+}
+function subtractCount() {
+
+}
