@@ -23,16 +23,16 @@ function getQuote() {
 }
 
 //THIRD-JS-PROJECT  
-let count = 0;
-document.getElementById("increase").innerHTML = count
 
-// function counter() {
-//     let count = 0;
-//     document.getElementById("increase").innerHTML = count
-// }
+let start = 0;
+document.getElementById("increase").innerHTML = start
+
 function addCounter() {
-
+    let add = start+=1;
+    document.querySelector("#increase").innerHTML = add;
+    console.log('add', start)
 }
 function subtractCount() {
-
+    let subtract = start-=1;
+    document.querySelector("#increase").innerHTML = subtract;
 }
