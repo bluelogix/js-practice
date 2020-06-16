@@ -21,13 +21,6 @@ function getQuote() {
     document.getElementById("quotes").innerHTML = randomGenerator[randomArr];
     //here we are using the getelementbyid to use the p tag to display array while array using the onClick method to make them random
 }
-//FOURTH-JS-PROJECT
-let addArr = [];
-function addQuote() {
-    let addQ = document.getElementById("adding").value
-    addArr.push(addQ);
-    console.log('add', addQ)
-}
 
 //THIRD-JS-PROJECT  
 let start = 0;
@@ -41,4 +34,16 @@ function addCounter() {
 function subtractCount() {
     let subtract = start-=1;
     document.querySelector("#increase").innerHTML = subtract;
+}
+
+//FOURTH-JS-PROJECT
+let addArr = [];
+function addName() {
+    let addQ = document.getElementById("quotes").value
+    console.log(addQ)
+    addArr.push(addQ);
+    console.log('add', addQ)
+}
+function getName() {
+    "welcome" + firstName + lastName + "";
 }

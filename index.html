@@ -25,22 +25,23 @@
             <button onClick="getQuote()">Get Quote!</button>
         </div>
 
-        <div class="table fourth-js-project"> 
-            <h2>Add Quotes</h2>
-            <p type="text" id="quotes"></p>
-            <form id="adding">
-                <input type="text"></input>
-                <button onClick="addQuote()">Add!</button>
-            </form>
-           
-        </div>
-
         <div class="table third-js-project">
             <h2>Counter</h2>
             <p id="increase"></p>
             <button onClick="addCounter()">Increase Count</button>
             <button onClick="subtractCount()">Decrease Count</button>
         </div>
+
+        <div class="table fourth-js-project"> 
+            <h2>Add Name</h2>
+            <p value="text" id="addName" addName()></p>
+            <form id="adding" onsubmit="return false">
+                <input type="text" placeholder="first name"></input>
+                <input type="text" placeholder="last name"></input>
+                <button onClick="addQuote()" >Add!</button>
+            </form>
+        </div>
+        
         <script src="index.js" async defer></script>
     </body>
 </html>
