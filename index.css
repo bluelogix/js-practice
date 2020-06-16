@@ -40,3 +40,6 @@ p {
     background-size: cover;
     color: white;
 }
+.third-js-project p{
+    font-size: 25px;
+}
