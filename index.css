@@ -43,3 +43,19 @@ p {
 .third-js-project p{
     font-size: 25px;
 }
+
+/* FOURTH-JS-PROJECT */
+.arrowLeft {
+  position: absolute;
+  right: 75%;
+  font-size: 20px;
+}
+.arrowRight {
+    position: absolute;
+    left: 75%;
+    font-size: 20px;
+    /* color: yellow; */
+  }
+/* .fourth-js-project {
+    
+} */
