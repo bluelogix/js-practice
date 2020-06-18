@@ -42,6 +42,19 @@ function subtractCount() {
 //FOURTH-JS-PROJECT
 //array for images
 //same name different numbers?
+//not display all images at once
+//use on click to move right/left to next image
+let sliderImages = document.querySelectorAll(".slide"),
+arrowLeft = document.querySelector("#arrow-left"),
+arrowRight = document.querySelector("#arrow-right"),
+slideIndex = 0;
+//for loops
+
+function reset() {
+    for(let i = 0; i < sliderImages.length; i++) {
+        sliderImages[i].style.display = 'none';
+    }  
+}
 
 
 

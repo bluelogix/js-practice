@@ -33,17 +33,19 @@
             <button onClick="subtractCount()">Decrease Count</button>
         </div>
 
-        <div class="table fourth-js-project"> 
-            <h2></h2>
-            <img src="images/img0.jpeg" width="100%">
-            <img src="images/img1.jpeg" width="100%">
-            <img src="images/img2.jpeg" width="100%">
-            <img src="images/img3.jpeg" width="100%">
-            <img src="images/img4.jpeg" width="100%">
-            <img src="images/img5.jpeg" width="100%">
-            <img src="images/img6.jpeg" width="100%">
-            <i class="arrowLeft fas fa-arrow-left"></i>
-            <i class="arrowRight fas fa-arrow-right"></i>
+        <div class="table fourth-js-project">
+            <div id="imgSlide">
+            <img class="slide slide1" src="images/img0.jpeg" width="100%">
+            <img class="slide slide2" src="images/img1.jpeg" width="100%">
+            <img class="slide slide3" src="images/img2.jpeg" width="100%">
+            <img class="slide slide4" src="images/img3.jpeg" width="100%">
+            <img class="slide slide5" src="images/img4.jpeg" width="100%"> 
+            <img class="slide slide6" src="images/img5.jpeg" width="100%">
+            <img class="slide slide7" src="images/img6.jpeg" width="100%">
+            </div>
+            
+            <i id="arrow-left" onClick="next()" class="arrowLeft fas fa-arrow-left"></i>
+            <i id="arrow-right" onClick="next()" class="arrowRight fas fa-arrow-right"></i>
         </div>
 
 

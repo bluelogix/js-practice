@@ -46,16 +46,19 @@ p {
 
 /* FOURTH-JS-PROJECT */
 .arrowLeft {
+    cursor: pointer;
   position: absolute;
   right: 75%;
   font-size: 20px;
 }
 .arrowRight {
+    cursor: pointer;
     position: absolute;
     left: 75%;
     font-size: 20px;
     /* color: yellow; */
   }
-/* .fourth-js-project {
-    
-} */
+.slide {
+    display: none;
+}
+
