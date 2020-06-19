@@ -53,13 +53,43 @@ slideIndex = 0;
 function reset() {
     for(let i = 0; i < sliderImages.length; i++) {
         sliderImages[i].style.display = 'none';
-    }  
+    }    
 }
 
+function startSlider() {
+    reset()
+    sliderImages[0].style.display = 'block';
+}
+//Previous
+function slideLeft() {
+    reset();
+    sliderImages[slideIndex - 1].style.display = 'block';
+    slideIndex--;
+}
+//Left arrow event listener 
+arrowLeft.addEventListener('click', function(){
+    if(slideIndex === 0) {
+        slideIndex = sliderImages.length;
+    }
+    slideLeft();
+}); 
 
+//Next Slide
+function slideRight() {
+    reset();
+    sliderImages[slideIndex + 1].style.display = 'block';
+    slideIndex++;
+}
+arrowRight.addEventListener('click',  function(){
+    if(slideIndex === sliderImages.length - 1) {
+        slideIndex = -1;
+    }
+    slideRight();
+});
 
+startSlider();
 
-
+ 
 //Awaiting proj 
 // let addArr = [];
 // function addName() {
