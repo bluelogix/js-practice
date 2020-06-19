@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7cfc3bf3ab.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <h1>Javascript Practice</h1>
@@ -24,12 +25,40 @@
             </p>
             <button onClick="getQuote()">Get Quote!</button>
         </div>
+
         <div class="table third-js-project">
             <h2>Counter</h2>
             <p id="increase"></p>
             <button onClick="addCounter()">Increase Count</button>
             <button onClick="subtractCount()">Decrease Count</button>
         </div>
+
+        <div class="table fourth-js-project">
+            <div id="imgSlide">
+            <img class="slide slide1" src="images/img0.jpeg" width="100%">
+            <img class="slide slide2" src="images/img1.jpeg" width="100%">
+            <img class="slide slide3" src="images/img2.jpeg" width="100%">
+            <img class="slide slide4" src="images/img3.jpeg" width="100%">
+            <img class="slide slide5" src="images/img4.jpeg" width="100%"> 
+            <img class="slide slide6" src="images/img5.jpeg" width="100%">
+            <img class="slide slide7" src="images/img6.jpeg" width="100%">
+            </div>
+            
+            <i id="arrow-left"  class="arrowLeft fas fa-arrow-left"></i>
+            <i id="arrow-right" class="arrowRight fas fa-arrow-right"></i>
+        </div>
+
+
+        <!-- <div class="table fifth-js-project"> 
+            <h2>Add Name</h2>
+            <p value="text" id="addName" addName()></p>
+            <form id="adding" onsubmit="return false">
+                <input type="text" placeholder="first name"></input>
+                <input type="text" placeholder="last name"></input>
+                <button onClick="addQuote()" >Add!</button>
+            </form>
+        </div> -->
+        
         <script src="index.js" async defer></script>
     </body>
 </html>
