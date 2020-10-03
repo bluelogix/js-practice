@@ -89,7 +89,8 @@ arrowRight.addEventListener('click',  function(){
 
 startSlider();
 
- 
+//FIFTH-JS-PROJECT
+
 //Awaiting proj 
 // let addArr = [];
 // function addName() {
